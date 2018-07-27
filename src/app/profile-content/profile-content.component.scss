@@ -1,11 +1,15 @@
 :host {
-   background-color: white;
-   margin-top: 300px;
-   
-   &>div.row {
-      &>.col {
-          top: -200px;
-      }
-   }
-}
+  background-color: white;
+  margin-top: 300px;
 
+  & > div.row {
+    & > div {
+      top: -200px;
+    }
+  }
+
+  .jumbotron {
+    background-color: white;
+    border: 1px solid #c1c1c1;
+  }
+}
