@@ -4,7 +4,17 @@
 }
 
 .name {
-    font-size: 4rem;
+    margin-top: 25px;
+    background-color: #356b3cad;
+    padding-bottom: 15px;
+
+    .header {
+        font-size: 4rem;
+    }
+
+    .details {
+        font-size: 2rem;
+    }
 }
 
 .profile-pic {
