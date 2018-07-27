@@ -1,0 +1,11 @@
+:host {
+   background-color: white;
+   margin-top: 300px;
+   
+   &>div.row {
+      &>.col {
+          top: -200px;
+      }
+   }
+}
+
