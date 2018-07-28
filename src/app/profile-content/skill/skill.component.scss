@@ -1,6 +1,6 @@
 :host {
   & > div {
-    top: -100px;
+    top: -200px;
   }
 }
 
@@ -20,7 +20,11 @@ img {
 
     .details-header {
       font-size: 1.5rem;
-      text-decoration: underline;
+
+      & i {
+          font-size: 5rem;
+          color: #3a27bf;
+      }
     }
 
     .details-content {
@@ -32,6 +36,7 @@ img {
         .topic {
           font-size: 1.2rem;
           color: #3a27bf;
+          text-decoration: underline;
         }
 
         .content {
