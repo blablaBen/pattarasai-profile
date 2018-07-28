@@ -1,8 +1,9 @@
-
+$section_color: #d6d1d1;
 :host {
-    padding-top: 100px;
     &>div {
-        top: -200px;
+        top: -300px;
+        border-top:1px solid $section_color;
+        padding-top: 100px;
     }
 }
 .details-header {
