@@ -1,0 +1,22 @@
+:host {
+  color: black;
+}
+
+.streaming-logo {
+  & img {
+    width: 30%;
+  }
+}
+
+.streaming-responsibilities {
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.streaming-mockup {
+  top: -60px;
+
+  img {
+    width: 100%;
+  }
+}

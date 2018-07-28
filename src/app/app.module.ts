@@ -7,6 +7,7 @@ import { ProfileHeaderComponent } from './profile-header/profile-header.componen
 import { ProfileContentComponent } from './profile-content/profile-content.component';
 import { SkillComponent } from './profile-content/skill/skill.component';
 import { WorkComponent } from './profile-content/work/work.component';
+import { StreamingPcComponent } from './profile-content/work/streaming-pc/streaming-pc.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { WorkComponent } from './profile-content/work/work.component';
     ProfileHeaderComponent,
     ProfileContentComponent,
     SkillComponent,
-    WorkComponent
+    WorkComponent,
+    StreamingPcComponent
   ],
   imports: [
     BrowserModule
