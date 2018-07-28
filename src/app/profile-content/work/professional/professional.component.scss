@@ -19,6 +19,10 @@ img {
   &.thomson {
       width: 250px;
   }
+
+  &.chula {
+    width: 300px;
+  }
 }
 
 .details {
@@ -34,8 +38,8 @@ img {
   }
 
   .details-section {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 30px;
 
     .details-content {
@@ -53,17 +57,6 @@ img {
         }
       }
     }
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (max-width: 767px) {
-  .details {
-    border-bottom: 1px solid $section_color;
-  }
-
-  .details:last-child {
-    border-bottom: none !important;
   }
 }
 
