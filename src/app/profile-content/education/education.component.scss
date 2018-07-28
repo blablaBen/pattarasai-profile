@@ -15,6 +15,17 @@ $section_color: #d6d1d1;
   }
 }
 
+.details-content {
+    margin-top: 5rem;
+    img {
+        width: 350px;
+    }
+
+    .university-detail {
+        margin-top: 2rem;
+    }
+}
+
 
 [class*="col"] {
     text-align: center;
