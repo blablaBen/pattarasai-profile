@@ -7,20 +7,26 @@ div.describtion {
   padding-bottom: 300px;
   background-color: #3a27bf;
 
+  & div.header {
+    font-size: 2rem;
+  }
+
   & div.details {
     margin-top: 50px;
+    font-size: 1.2rem;
   }
 }
 
 div.products {
-    background-color: white;
+  background-color: white;
+
   & > div {
     top: -200px;
   }
 
   .jumbotron {
-      background-color: white;
-      border: 1px solid #c1c1c1;
+    background-color: white;
+    border: 1px solid #c1c1c1;
   }
 }
 
