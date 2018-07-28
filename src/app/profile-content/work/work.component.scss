@@ -1,5 +1,8 @@
 :host {
   color: white;
+  &>div {
+    top: -150px
+  }
 }
 
 div.describtion {

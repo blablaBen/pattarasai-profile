@@ -1,3 +1,6 @@
+
+$section_color: #d6d1d1;
+
 :host {
   & > div {
     top: -200px;
@@ -16,7 +19,7 @@ img {
 
   .details-section {
     padding-bottom: 30px;
-    border-right: 1px solid #d6d1d1;
+    border-right: 1px solid $section_color;
 
     .details-header {
       font-size: 1.5rem;
@@ -36,7 +39,7 @@ img {
         .topic {
           font-size: 1.2rem;
           color: #3a27bf;
-          text-decoration: underline;
+          text-decoration: underline
         }
 
         .content {
@@ -47,6 +50,17 @@ img {
     }
   }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767px) { 
+    .details-section {
+        padding-top: 50px;
+        border-bottom: 1px solid $section_color;
+    }
+    .details-section:last-child {
+        border-bottom: none !important;
+    }
+ }
 
 [class*="col"] {
   text-align: center;
