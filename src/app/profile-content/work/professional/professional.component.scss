@@ -15,6 +15,10 @@ $section_color: #d6d1d1;
 
 img {
   width: 150px;
+
+  &.thomson {
+      width: 250px;
+  }
 }
 
 .details {
