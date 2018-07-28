@@ -8,6 +8,7 @@ import { ProfileContentComponent } from './profile-content/profile-content.compo
 import { SkillComponent } from './profile-content/skill/skill.component';
 import { WorkComponent } from './profile-content/work/work.component';
 import { StreamingPcComponent } from './profile-content/work/streaming-pc/streaming-pc.component';
+import { EducationComponent } from './profile-content/education/education.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { StreamingPcComponent } from './profile-content/work/streaming-pc/stream
     ProfileContentComponent,
     SkillComponent,
     WorkComponent,
-    StreamingPcComponent
+    StreamingPcComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule
