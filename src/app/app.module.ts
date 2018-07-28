@@ -10,6 +10,7 @@ import { WorkComponent } from './profile-content/work/work.component';
 import { StreamingPcComponent } from './profile-content/work/streaming-pc/streaming-pc.component';
 import { EducationComponent } from './profile-content/education/education.component';
 import { ProfessionalComponent } from './profile-content/work/professional/professional.component';
+import { ProfileBottomComponent } from './profile-bottom/profile-bottom.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ProfessionalComponent } from './profile-content/work/professional/profe
     WorkComponent,
     StreamingPcComponent,
     EducationComponent,
-    ProfessionalComponent
+    ProfessionalComponent,
+    ProfileBottomComponent
   ],
   imports: [
     BrowserModule
