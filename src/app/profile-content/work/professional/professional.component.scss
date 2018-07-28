@@ -54,12 +54,11 @@ img {
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 767px) {
-  .details-section {
-    padding-top: 50px;
+  .details {
     border-bottom: 1px solid $section_color;
   }
 
-  .details-section:last-child {
+  .details:last-child {
     border-bottom: none !important;
   }
 }
