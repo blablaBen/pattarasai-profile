@@ -17,13 +17,30 @@ img {
   width: 150px;
 
   &.thomson {
-      width: 250px;
+    width: 250px;
   }
 
   &.chula {
     width: 300px;
   }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  img {
+    &.chula {
+      width: 250px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .details-section {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+  }
 
 .details {
   .details-topic {
@@ -59,6 +76,8 @@ img {
     }
   }
 }
+
+
 
 [class*="col"] {
   text-align: center;

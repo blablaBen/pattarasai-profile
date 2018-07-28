@@ -1,11 +1,13 @@
 $section_color: #d6d1d1;
+
 :host {
-    &>div {
-        top: -300px;
-        border-top:1px solid $section_color;
-        padding-top: 100px;
-    }
+  & > div {
+    top: -300px;
+    border-top: 1px solid $section_color;
+    padding-top: 100px;
+  }
 }
+
 .details-header {
   font-size: 1.5rem;
 
@@ -16,17 +18,26 @@ $section_color: #d6d1d1;
 }
 
 .details-content {
-    margin-top: 5rem;
-    img {
-        width: 350px;
-    }
+  margin-top: 5rem;
 
-    .university-detail {
-        margin-top: 2rem;
-    }
+  img {
+    width: 350px;
+  }
+
+  .university-detail {
+    margin-top: 2rem;
+  }
 }
 
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .details-content {
+    img {
+      width: 250px;
+    }
+  }
+}
 
 [class*="col"] {
-    text-align: center;
+  text-align: center;
 }

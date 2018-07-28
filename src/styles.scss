@@ -1,16 +1,23 @@
 
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image:url('assets/bg-2.png');
+  background-image: url('assets/bg-2.png');
 }
+
 .align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-grey-color {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .header-topic {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
 }
